@@ -211,6 +211,7 @@ async fn vectorinfo(url: &str) -> Result<Resultstruct, Error> {
     Ok(finalstruct)
 }
 
+#[allow(dead_code)]
 async fn vectorinfoinverse(url: &str) -> Result<Resultstruct, Error> {
     let v = reqwest::get(url)
         .await
