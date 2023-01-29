@@ -1,5 +1,3 @@
-pub mod all;
-pub mod coin;
+pub mod transactions;
 pub mod help;
-pub mod priceinfo;
-pub mod registration;
+

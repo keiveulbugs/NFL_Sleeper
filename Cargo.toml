@@ -1,5 +1,5 @@
 [package]
-name = "discordslashbot"
+name = "sleeper"
 version = "0.3.0"
 edition = "2021"
 
@@ -13,7 +13,7 @@ serde = "1.0.144"
 serde_json = "1.0.85"
 serde_derive = "1.0.144"
 dotenv_codegen = "0.15.0"
-poise = "0.3.0"
+poise = "0.5.2"
 [target.'cfg(unix)'.dependencies]
 openssl = { version = "0.10.45", features = ["vendored"] }
 
